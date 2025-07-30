@@ -5,7 +5,9 @@ let rec duplicate_list_gen = fun s ->
     match xccc2 with
     | true -> []
     | false ->
-        let (idx1) = s in
-        let (idx6ccc0) = subs idx1 in
-        let (idx7) = duplicate_list_gen idx6ccc0 in
-        let (idx2) = x in let (idx8ccc1) = idx7 idx2 in idx2 :: idx8ccc1
+        let (idx2ccc0) = s in
+        let (idx7ccc0) = subs idx2ccc0 in
+        let (idx42) = duplicate_list_gen idx7ccc0 in
+        let (idx3ccc8) = x in
+        let (idx43ccc1) = idx42 idx3ccc8 in
+        let (idx3ccc0) = x in idx3ccc0 :: idx43ccc1

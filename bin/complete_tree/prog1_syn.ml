@@ -1,5 +1,4 @@
 open Combinators
-
 let rec complete_tree_gen = fun s ->
   let (xccc3) = sizecheck s in
   match xccc3 with
